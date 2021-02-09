@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>File Upload</title>
+</head>
+<body>
+    <h1>File Upload</h1>
+    <form id="form">
+        <div class="file_holder">Click or Drop here</div>
+        <input
+            type="file"
+            name="myFile"
+            id="file_uploader"
+            multiple
+            title="Upload a file clicking or dropping here."
+            accept="image/x-png,image/jpeg"
+        >
+        <button class="submit_button" type="submit">Send images</button>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
